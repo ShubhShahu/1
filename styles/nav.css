@@ -1,0 +1,89 @@
+.mainNav{
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    background-color: #2E2E2E;
+}
+.mainNav li{
+    display: inline;
+    line-height: 0px;
+    height: auto;
+}
+
+.mainNav li :hover{
+    border-bottom: solid 9px #3786E1;
+}
+.mainNav li a {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    color: #DEDEDE;
+    
+}
+.mainNav li a.active {
+    background-color: #3786E1;
+}
+.leftNav {
+    float: left;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+.leftNav a{
+    border-bottom: 5px;
+}
+.epicLogoNav{
+    height: 40px;
+    padding: 0 10px 0 10px;
+    
+}
+.rightNav{
+    float: right;
+}
+.downloadNav{
+    background-color: #3786E1;
+    border: 8px solid #3786E1;
+    
+}
+
+
+.navSearch{
+    display: flex;
+    padding: 50px 200px 5px 200px;
+    position: sticky;
+    top: -1px;
+    background-color: #171717;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.search{
+    display: flex;
+    padding: 10px;
+    margin: 5px;
+    background-color: #2E2E2E;
+    border-radius: 24px;
+}
+.textbox input{
+    background-color: #2E2E2E;
+}
+.navtabs{
+    margin-left: 20px;
+    height: 50px;
+    line-height: 50px;
+}
+.navtabs ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.navtabs li{
+    padding: 0 10px;
+}
+.discoText{
+    color: #ced4da;
+}
+.navtabs a:hover{
+    color: #fff;
+}

@@ -1,0 +1,90 @@
+.catalog{
+    margin: 50px 200px 50px 200px;
+   display: flex;
+   flex-direction: column;
+}
+.saleHead{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.sale{
+    color: white;
+    float: left;
+}
+.saleBody{
+    display: flex;
+    justify-content: space-around;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px 20px 0;
+}
+.prodImg img{
+    width: 200px;
+    height:310px;
+    margin: 20px 5px 5px 5px;
+    border-radius: 3px;
+}
+
+.prodName{
+    margin: 2px;
+    padding: 5px;
+    font-size: 20px;
+    color: #e9ecef;
+    font-weight: 500;
+}
+.prodPrice{
+    display: flex;
+    align-items: center;
+}
+.prodOff{
+    background-color: #3786E1;
+    border-radius: 3px;
+    margin: 5px;
+    padding: 5px;
+    color: #ced4da;
+    font-weight: 800;
+}
+.prodPrevPrice{
+    margin: 3px 10px 3px 6px;
+    text-decoration: line-through;
+    font-size: 20px;
+    color: #ced4da;
+    font-weight: 100;
+}
+.prodCurrPrice{
+    font-size: 20px;
+    color: #e9ecef;
+    font-weight: 400;
+}
+
+.publisherSale{
+    margin: 50px 200px 50px 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.pubImg{
+    width: 350px;
+    height: 190px;
+    border-radius: 3px;
+}
+.pubHead{
+    color: #e9ecef;
+    margin: 15px 0 5px 15px;
+}
+.pubContext{
+    color: #ced4da;
+    margin: 15px 0 5px 15px;
+    width: 300px;
+    font-weight: 100;
+}
+.product :hover{
+    cursor: pointer;
+}
+.publisherSale :hover{
+    cursor: pointer;
+}

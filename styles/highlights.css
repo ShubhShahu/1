@@ -1,0 +1,42 @@
+.highlights{
+    margin: 50px 200px 50px 200px;
+    display: flex;
+}
+.bigPanelImg{
+    max-width:100%;
+    height:auto;
+    border-radius: 24px;
+}
+.bigPanel{
+    max-width:80%;
+    height:auto;
+}
+.sidePanel{
+    margin-left: 20px;
+    max-width: 30%;
+    height: auto;
+}
+.sidePanelName{
+    color: #ced4da;;
+    font-weight: 400;
+}
+.sidePanel li :hover{
+    background-color: #2E2E2E;
+    cursor: pointer;
+}
+
+.panel{
+   width: 100%; 
+   height: auto;
+   display: flex;
+   align-items: center;
+   margin: 10px 20px;
+   padding: 10px;
+   border-radius: 4px;
+}
+.sidePanelImg img{
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 3px;
+}
